@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}} - Handlebars</title>
+    <link rel="stylesheet" href="/home.css">
+</head>
+<body>
+    <header>
+        <h1>{{title}}</h1>
+        <nav>
+            <a href="/">HTML</a>
+            <a href="/pug">PUG</a>
+            <a href="/ejs">EJS</a>
+            <a href="/handlebars">Handlebars</a>
+        </nav>
+    </header>
+
+    <main>
+        {{{body}}}
+    </main>
+
+    <footer>
+        <p>&copy; {{currentYear}} Dynamic Templating Demo • Crafted by Yabesh • All Rights Reserved (Handlebars)</p>
+    </footer>
+</body>
+</html>

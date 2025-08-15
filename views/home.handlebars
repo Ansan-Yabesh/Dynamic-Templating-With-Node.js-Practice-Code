@@ -1,0 +1,23 @@
+<section class="hero">
+    <h2>{{heading}}</h2>
+    <p>{{description}}</p>
+</section>
+
+{{#if showFeatures}}
+{{!-- <section class="features">
+    <ul>
+        {{#each features}}
+            <li>{{this}}</li>
+        {{/each}}
+    </ul>
+</section> --}}
+{{/if}}
+
+<section class="user-info">
+    <h3>User Information:</h3>
+    <div class="user-card">
+        <p><strong>Name:</strong> {{user.name}}</p>
+        <p><strong>Email:</strong> {{user.email}}</p>
+        <p><strong>Role:</strong> {{user.role}}</p>
+    </div>
+</section>

@@ -1,0 +1,30 @@
+{
+  "name": "dynamic-templating-nodejs",
+  "version": "1.0.0",
+  "description": "Dynamic Templating with Node.js using multiple template engines",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "pug": "^3.0.2",
+    "ejs": "^3.1.9",
+    "express-handlebars": "^7.1.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ansan-Yabesh/Dynamic-Templating-With-Node.js-Practice-Code.git"
+  },
+  "author": "Ansan Yabesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ansan-Yabesh/Dynamic-Templating-With-Node.js-Practice-Code/issues"
+  },
+  "homepage": "https://github.com/Ansan-Yabesh/Dynamic-Templating-With-Node.js-Practice-Code#readme"
+}

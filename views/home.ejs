@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %> - EJS</title>
+    <link rel="stylesheet" href="/home.css">
+</head>
+<body>
+    <header>
+        <h1><%= title %></h1>
+        <nav>
+            <a href="/">HTML</a>
+            <a href="/pug">PUG</a>
+            <a href="/ejs">EJS</a>
+            <a href="/handlebars">Handlebars</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2><%= heading %></h2>
+            <p><%= description %></p>
+        </section>
+
+        <% if (showFeatures) { %>
+        <!-- <section class="features">
+            <ul>
+                <% features.forEach(function(feature) { %>
+                    <li><%= feature %></li>
+                <% }); %>
+            </ul>
+        </section> -->
+        <% } %>
+
+        <section class="user-info">
+            <h3>User Information:</h3>
+            <div class="user-card">
+                <p><strong>Name:</strong> <%= user.name %></p>
+                <p><strong>Email:</strong> <%= user.email %></p>
+                <p><strong>Role:</strong> <%= user.role %></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <%= currentYear %> Dynamic Templating Demo. All rights reserved (EJS)</p>
+    </footer>
+</body>
+</html>

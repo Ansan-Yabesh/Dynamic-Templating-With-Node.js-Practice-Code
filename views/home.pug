@@ -1,0 +1,43 @@
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title= title
+    link(rel="stylesheet", href="/home.css")
+  body
+    header
+      h1 Dynamic Templating with Node.js
+      nav
+        a(href="/") HTML
+        a(href="/pug") PUG
+        a(href="/ejs") EJS
+        a(href="/handlebars") Handlebars
+    
+    main
+      section.hero
+        h2= heading
+        p= description
+      
+      section.user-info
+        h3 User Information:
+        .user-card
+          p
+            strong Name: 
+            | #{user.name}
+          p
+            strong Email: 
+            | #{user.email}
+          p
+            strong Role: 
+            | #{user.role}
+      
+      //- if showFeatures
+      //-   section.features
+      //-     h3 Features
+      //-     ul
+      //-       each feature in features
+      //-         li= feature
+    
+    footer
+      p &copy; #{currentYear} Dynamic Templating Demo ✦ Built by #{user.name} ✦ All Rights Reserved (PUG)
