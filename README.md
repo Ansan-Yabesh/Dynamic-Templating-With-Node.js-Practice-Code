@@ -42,20 +42,6 @@ npm install
 npm start
 ```
 
-3. Open your browser and navigate to:
-- http://localhost:3000/ (HTML)
-- http://localhost:3000/pug (PUG)
-- http://localhost:3000/ejs (EJS)
-- http://localhost:3000/handlebars (Handlebars)
-
-## Available Routes
-
-- **GET /** - Static HTML version
-- **GET /pug** - PUG template rendering
-- **GET /ejs** - EJS template rendering
-- **GET /handlebars** - Handlebars template rendering
-- **GET /api/data** - JSON API endpoint for dynamic data
-
 ## Template Engines Explained
 
 ### PUG
