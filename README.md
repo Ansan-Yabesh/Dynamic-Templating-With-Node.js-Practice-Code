@@ -12,23 +12,6 @@ This project demonstrates dynamic templating using multiple template engines in 
 - **Responsive design** with CSS
 - **Dynamic data rendering**
 
-## Project Structure
-```
-dynamic-templating-nodejs/
-├── main.js                 # Main server file
-├── package.json           # Dependencies and scripts
-├── routes/
-│   └── home.js           # Route definitions
-├── views/
-│   ├── home.pug          # PUG template
-│   ├── home.ejs          # EJS template
-│   ├── home.handlebars   # Handlebars template
-│   └── layouts/
-│       └── main.handlebars # Handlebars layout
-└── public/
-    ├── home.html         # Static HTML file
-    └── home.css          # Stylesheet
-```
 
 ## Installation
 
